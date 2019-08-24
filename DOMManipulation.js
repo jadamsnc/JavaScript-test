@@ -64,3 +64,11 @@ var link = document.querySelector("a");
 link.setAttribute("href", "www.dogs.com"); // sets the href attribute of a elements to dogs.com
 var pic = document.querySelector("img");
 pic.setAttribute("src", "image address");
+
+
+// to add a listenered use addEventListener
+// like element.addEventListener(type, functionToCall)
+var button = document.querySelector("button");
+button.addEventListener("click", function() {
+    console.log("SOMEONE CLICKED THE BUTTON!");
+});
